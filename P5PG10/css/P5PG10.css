@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f5f5dc; 
+    text-align: center;
+}
+
+img {
+    width: 15rem;
+    margin-top: 3rem;
+}
+
+button {
+    width: 6rem; 
+    padding: 0.5rem;
+}
+
+form {
+    margin-top: 3rem;
+}
+
+.button {
+    margin-top: 3rem;
+}
+
+.link {
+    margin-right: 6rem;
+}
+

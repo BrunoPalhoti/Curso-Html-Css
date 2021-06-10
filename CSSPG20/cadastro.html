@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS20.css">
+    </head>
+    <body>
+      
+      
+        <div>
+          <img id="logo" src="./university.png" height="250" width="1050" >
+          <h3>Formularia de Cadastro</h3>
+          <form>
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Nome"><br>
+
+            <label for="data">Data de Nascimento</label><br>
+            <input type="date" id="data" name="data_de_nascimento"><br>
+
+            <label for="rg">RG</label><br>
+            <input type="number" id="rg" name="rg" placeholder="RG"><br>
+        
+            <label for="cpf">CPF</label><br>
+            <input type="number" id="cpf" name="cpf" placeholder="CPF"><br>
+
+            <p id="end">Endereço:</p>
+            <label for="rua">Rua</label><br>
+            <input type="text" id="rua" name="rua" placeholder="Rua"> <br>
+
+            <label for="numero">Numero</label><br>
+            <input type="number" id="numero" name="numero" placeholder="Numero"><br>
+
+            <label for="cpe">CEP</label><br>
+            <input type="number" id="cep" name="cep" placeholder="CEP"><br>
+
+            <label for="compl">Complemento</label><br>
+            <input type="text" id="compl" name="complemento" placeholder="Complemento"><br>
+
+            <label for="estado">Estado</label><br>
+            <select id="estafo" name="estado">
+              <option value="sp">SP</option>
+              <option value="rj">RJ</option>
+              <option value="mt">MT</option>
+              <option value="rs">RS</option>
+              <option value="mg">MG</option>
+              <option value="ba">BA</option>
+              <option value="to">TO</option>
+              <option value="go">GO</option>
+              <option value="pa">PA</option>
+            </select>
+            <br>
+            <label for="semestre">Semestre</label><br>
+            <select id="semestre" name="semestre">
+                <option>1°</option>
+                <option>2°</option>
+                <option>3°</option>
+                <option>4°</option>
+                <option>5°</option>
+                <option>6°</option>
+                <option>7°</option>
+                <option>8°</option>
+            </select>
+            
+            <textarea id="obs" name="observação" cols="105" rows="10" maxlength="200" placeholder="Observação"></textarea>
+
+            <a href="cronograma.html"><input class="btn" type="button" value="Enviar">
+          </form>
+        </div>
+        
+        </body>
+        </html>
+        

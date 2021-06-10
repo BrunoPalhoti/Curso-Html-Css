@@ -1,0 +1,108 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(161, 116, 233);
+}
+#menu-h{
+    background-color: rgb(187, 141, 218);
+}
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+#menu-h ul li {
+    display: inline;
+}
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu-h ul li a:hover {
+    background-color: rgb(139, 24, 233);
+}
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(139, 24, 233);
+}
+#imgbts{
+    position: relative;
+    left: 450px;
+    position: relative;
+    animation: mymoveimg 3s infinite;
+    animation-iteration-count:1 ;
+  }  
+  @keyframes mymoveimg {
+    from {left: 0px;}
+    to {left: 450px;}
+  
+}
+#bts1{
+    font-size: 80px;
+    position: relative;
+    left: 100px;
+    top: -480px;
+    position: relative;
+    animation: mymovebts1 6s infinite;
+    animation-iteration-count:1 ;
+  }  
+  @keyframes mymovebts1 {
+    from {top: 0px;}
+    to {top: -480px;}
+  
+}
+#bts2{
+    font-size: 80px;
+    position: relative;
+    left: 1600px;
+    top: -750px;
+    position: relative;
+    animation: mymovebts2 6s infinite;
+    animation-iteration-count:1 ;
+  }  
+  @keyframes mymovebts2 {
+    from {top: 0px;}
+    to {top: -750px;}
+  
+}
+h1{
+    display: inline;
+    position: relative;
+    left: 560px;
+    animation: mymoveh1 6s infinite;
+    animation-iteration-count:1 ;
+}
+@keyframes mymoveh1{
+    from{left: 0;}
+    to{left: 560px;}
+}
+
+.bts{
+    font-size: 80px;
+    position: relative;
+    left: 800px;
+    animation: mymoveh2 6s infinite;
+    animation-iteration-count:1 ;
+}
+@keyframes mymoveh2{
+    from{left: 0;}
+    to{left: 800px;}
+}
+
+.img{
+    position: relative;
+    left: 225px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border: 5px solid rgb(139, 24, 233);
+    }
+    .img:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    }
